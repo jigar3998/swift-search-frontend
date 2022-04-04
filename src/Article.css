@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+    margin: 0
+}
+
+.article {
+    margin: 10px;
+    padding-top: 20px;
+    border-top: 1px solid black;
+}
