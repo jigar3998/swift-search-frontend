@@ -239,8 +239,7 @@ class HomePage extends Component{
                   render={({ data }) => (
                     <div className="cardContainer">
                         {data.map((item) => (
-                          <Link to={`/information/${item._id}`} className="resultCard" >
-                            {console.log(item._id)}
+                          <Link to={`/information/${item._uuid}`} className="resultCard" >
                           {item.image_url==null?<img className="cardImage" src="https://cms.cut.ac.za/Files/Images/f25625f6-e024-444b-b31e-be7db64abb44.jpg" />: <img className="cardImage" src={item.image_url} />}
                           <div className="cardData">
                             <div
